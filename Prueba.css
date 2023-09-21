@@ -113,7 +113,20 @@ ul{
     align-items: center;
    
 
+
 }
+
+.greeting{
+
+
+    text-align: center;
+
+
+}
+
+
+
+
 
 @media (max-width: 500px){
 

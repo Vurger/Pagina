@@ -1,0 +1,143 @@
+
+head{
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(94, 105, 114);
+}
+
+body{
+    background-color: rgb(43, 39, 39);
+    color: rgb(22, 22, 22);
+    font-size: 40px;
+    
+}
+
+
+
+header{
+
+background-color: blanchedalmond;
+display: flex;
+flex-flow: wrap;
+justify-content: center;
+align-items: center;
+}
+
+div, h1, p{
+
+color: white;
+
+}
+
+nav a{
+    
+    padding: 14px;
+
+
+}
+
+
+.imagenes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline; /* Espacio uniformemente entre las columnas */
+}
+
+#imagen1, #imagen2 {
+    
+    border: solid 2px aliceblue;
+    border-radius: 100px;
+    background-color: aliceblue;
+    width: auto;
+    height: auto;
+    flex-basis: calc(33.33% - 20px); /* Establece el ancho de cada elemento para mostrar 3 por fila */
+    margin-left: 10px;
+}
+
+
+
+a{
+    display: grid;
+    text-align: center;
+    text-decoration:none ;
+    margin-left: 20px;
+    padding: 14px 16px;
+    transition: background-color 0.5s ;
+}
+
+a:hover{
+    background-color: rgb(40, 43, 43);
+    color: white;
+}
+
+input{
+    display: flexbox;
+    background-color: rgb(37, 36, 48);
+    height: 30px;
+    color: rgb(238, 238, 238);
+    border: solid 2px red;
+    border-radius: 20px;
+   
+}
+
+li a{
+    display: block;
+    text-align: center;
+    text-decoration:none ;
+    margin-left: 20px;
+    padding: 14px 16px;
+    transition: background-color 0.5s ;
+}
+
+li a:hover{
+    background-color: rgb(40, 43, 43);
+    color: white;
+}
+
+
+li{
+    border-radius: 20px;
+    margin: 0 10px;
+    font-size: larger;
+    display: flex;
+    width: auto;
+    flex-flow: wrap;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: -30px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+@media (max-width: 500px){
+
+    body{
+
+        background-color: azure;
+        transition: background-color 0.2s ;
+    }
+
+    
+
+    header{
+        font-family:'Times New Roman';
+       
+        color: rgb(18, 18, 19);
+    }
+
+
+}
+
+@media (min-width: 500px){
+    body{
+
+        background-color: rgb(27, 29, 29);
+        transition: background-color 0.2s ;
+    }
+}
